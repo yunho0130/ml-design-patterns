@@ -1,57 +1,54 @@
-*This is not an official Google product*
+*본 레파지토리는 구글의 공식 제품이 아닙니다.*
 
 # ml-design-patterns
-Source code accompanying O'Reilly book: <br/>
-**Title**: Machine Learning Design Patterns <br/>
-**Authors**: Valliappa (Lak) Lakshmanan, Sara Robinson, Michael Munn <br/>
+O'Reilly 책과 함께 제공되는 소스코드: <br/>
+**제목**: 머신러닝 디자인 패턴 Machine Learning Design Patterns <br/>
+**저자**: Valliappa (Lak) Lakshmanan, Sara Robinson, Michael Munn <br/>
+**역자**: 맹윤호, 임지순 <br/> 
 
-<img src="mldp_cover_color.jpg" height="300"> https://www.oreilly.com/library/view/machine-learning-design/9781098115777/ </img> <br/>
+<img src="mldp_cover_color.jpg" height="300"></img><br/>
 
-<a href="https://shop.aer.io/oreilly/p/machine-learning-design/9781098115784-9149">Buy from O'Reilly</a> <br/>
-<a href="https://www.amazon.com/Machine-Learning-Design-Patterns-Preparation/dp/1098115783">Buy from Amazon</a> <br/>
-
-We will update this repo with source code as we write each chapter. Stay tuned!
-
+`머신러닝 디자인 패턴` 한국 독자들을 위한 소스코드 저장소입니다. 각 장마다 새로운 코드들이 업데이트 되고 있으며, 최신 원본 코드는 아래의 링크에서 확인하실 수 있습니다. <br/>
 [<img src="https://deepnote.com/buttons/try-in-a-jupyter-notebook-white.svg">](https://deepnote.com/launch?url=https://github.com/GoogleCloudPlatform/ml-design-patterns)
 
-# Chapters
+# 목차
 
-* Preface
-* The Need for ML Design Patterns
-* Data representation design patterns
-  * #1 Hashed Feature
-  * #2 Embedding
-  * #3 Feature Cross
-  * #4 Multimodal Input
-* Problem representation design patterns
-  * #5 Reframing
-  * #6 Multilabel
-  * #7 Ensemble
-  * #8 Cascade
-  * #9 Neutral Class
-  * #10 Rebalancing
-* Patterns that modify model training
+* 서문 Preface
+* 머신러닝 디자인 패턴의 필요성 The Need for ML Design Patterns
+* 데이터 표현 디자인 패턴 Data representation design patterns
+  * #1 특징 해시 Hashed Feature
+  * #2 임베딩 Embedding
+  * #3 특징 교차 Feature Cross
+  * #4 멀티모달 입력 Multimodal Input
+* 문제 표현 디자인 패턴 Problem representation design patterns
+  * #5 리프레이밍 Reframing
+  * #6 멀티레이블 Multilabel
+  * #7 앙상블 Ensemble
+  * #8 캐스케이드 Cascade
+  * #9 중립 클래스 Neutral Class
+  * #10 리밸런싱 Rebalancing
+* 학습 모델 수정 패턴 Patterns that modify model training
   * #11 Useful overfitting
   * #12 Checkpoints
   * #13 Transfer Learning
   * #14 Distribution Strategy
   * #15 Hyperparameter Tuning
-* Resilience patterns
-  * #16 Stateless Serving Function
-  * #17 Batch Serving
-  * #18 Continuous Model Evaluation
-  * #19 Two Phase Predictions
-  * #20 Keyed Predictions
-* Reproducibility patterns
-  * #21 Transform
-  * #22 Repeatable Sampling
-  * #23 Bridged Schema
-  * #24 Windowed Inference
-  * #25 Workflow Pipeline
-  * #26 Feature Store
-  * #27 Model Versioning
-* Responsible AI
-  * #28 Heuristic benchmark
-  * #29 Explainable Predictions
-  * #30 Fairness Lens
-* Summary
+* 탄력성 패턴 Resilience patterns
+  * #16 스테이트리스 서빙 함수 Stateless Serving Function
+  * #17 배치 서빙 Batch Serving
+  * #18 연속 모델 평가 Continuous Model Evaluation
+  * #19 2단계 예측 Two Phase Predictions
+  * #20 키 기반 예측 Keyed Predictions
+* 재현성 패턴 Reproducibility patterns
+  * #21 트랜스폼 Transform
+  * #22 반복가능한 분할 Repeatable Splitting
+  * #23 브릿지 스키마 Bridged Schema
+  * #24 윈도우 추론 Windowed Inference
+  * #25 워크플로우 파이프라인 Workflow Pipeline
+  * #26 특징 저장소 Feature Store
+  * #27 모델 버전 관리 Model Versioning
+* 책임있는 AI Responsible AI
+  * #28 휴리스틱 벤치마크 Heuristic benchmark
+  * #29 설명가능한 예측 Explainable Predictions
+  * #30 공정성 렌즈 Fairness Lens
+* 요약 Summary
