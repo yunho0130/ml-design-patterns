@@ -14,32 +14,32 @@ O'Reilly 책과 함께 제공되는 소스코드: <br/>
 # 목차
 
 * 서문 Preface
-* 머신러닝 디자인 패턴의 필요성 The Need for ML Design Patterns
-* 데이터 표현 디자인 패턴 Data representation design patterns
+* [머신러닝 디자인 패턴의 필요성](./01_need_for_design_patterns) The Need for ML Design Patterns
+* [데이터 표현 디자인 패턴](./02_data_representation) Data representation design patterns
   * #1 특징 해시 Hashed Feature
   * #2 임베딩 Embedding
   * #3 특징 교차 Feature Cross
   * #4 멀티모달 입력 Multimodal Input
-* 문제 표현 디자인 패턴 Problem representation design patterns
+* [문제 표현 디자인 패턴](./03_problem_representation) Problem representation design patterns
   * #5 리프레이밍 Reframing
   * #6 멀티레이블 Multilabel
   * #7 앙상블 Ensemble
   * #8 캐스케이드 Cascade
   * #9 중립 클래스 Neutral Class
   * #10 리밸런싱 Rebalancing
-* 학습 모델 수정 패턴 Patterns that modify model training
+* [학습 모델 수정 패턴](./04_hacking_training_loop) Patterns that modify model training
   * #11 Useful overfitting
   * #12 Checkpoints
   * #13 Transfer Learning
   * #14 Distribution Strategy
   * #15 Hyperparameter Tuning
-* 탄력성 패턴 Resilience patterns
+* [탄력성 패턴](./05_resilience) Resilience patterns
   * #16 스테이트리스 서빙 함수 Stateless Serving Function
   * #17 배치 서빙 Batch Serving
   * #18 연속 모델 평가 Continuous Model Evaluation
   * #19 2단계 예측 Two Phase Predictions
   * #20 키 기반 예측 Keyed Predictions
-* 재현성 패턴 Reproducibility patterns
+* [재현성 패턴](./06_reproducibility) Reproducibility patterns
   * #21 트랜스폼 Transform
   * #22 반복가능한 분할 Repeatable Splitting
   * #23 브릿지 스키마 Bridged Schema
@@ -47,8 +47,9 @@ O'Reilly 책과 함께 제공되는 소스코드: <br/>
   * #25 워크플로우 파이프라인 Workflow Pipeline
   * #26 특징 저장소 Feature Store
   * #27 모델 버전 관리 Model Versioning
-* 책임있는 AI Responsible AI
+* [책임있는 AI](./07_responsible_ai) Responsible AI
   * #28 휴리스틱 벤치마크 Heuristic benchmark
   * #29 설명가능한 예측 Explainable Predictions
   * #30 공정성 렌즈 Fairness Lens
+* [연결 패턴](./08_connected_patterns) Connected Patterns
 * 요약 Summary
