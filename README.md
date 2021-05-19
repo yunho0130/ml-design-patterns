@@ -28,11 +28,11 @@ O'Reilly 책과 함께 제공되는 소스코드: <br/>
   * #9 중립 클래스 Neutral Class
   * #10 리밸런싱 Rebalancing
 * [학습 모델 수정 패턴](./04_hacking_training_loop) Patterns that modify model training
-  * #11 Useful overfitting
-  * #12 Checkpoints
-  * #13 Transfer Learning
-  * #14 Distribution Strategy
-  * #15 Hyperparameter Tuning
+  * #11 유용한 과대적합 Useful overfitting
+  * #12 체크포인트 Checkpoints
+  * #13 전이학습 Transfer Learning
+  * #14 분산전략 Distribution Strategy
+  * #15 하이퍼파라미터 튜닝 Hyperparameter Tuning
 * [탄력성 패턴](./05_resilience) Resilience patterns
   * #16 스테이트리스 서빙 함수 Stateless Serving Function
   * #17 배치 서빙 Batch Serving
